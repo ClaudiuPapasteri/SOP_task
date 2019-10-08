@@ -172,7 +172,7 @@ while 1
     if keyIsDown
         if keyCode(spaceKey)
             break ;
-        elseif keyCode(escKey)
+        elseif keyCode(escapeKey)
              ShowCursor;
              Screen('CloseAll');
             return;
